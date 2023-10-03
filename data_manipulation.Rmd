@@ -110,4 +110,14 @@ mutate(
 ```
 
 
+## `arrange`
+
+```{r}
+arrange(litters_df, gd0_weight)
+arrange(litters_df, group, gd0_weight)
+```
+
+
+
+
 
